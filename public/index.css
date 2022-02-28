@@ -1,0 +1,306 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    transition: 200ms ease-in-out;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+.body-main-section {
+    width: auto;
+        background: linear-gradient(130deg, #8bd0d6, #3f8b94, #183a55, #02343a);
+        background-size: 800% 800%;
+    
+        -webkit-animation: AnimationName 10s ease infinite;
+        -moz-animation: AnimationName 10s ease infinite;
+        -o-animation: AnimationName 10s ease infinite;
+        animation: AnimationName 10s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
+    }
+    @-o-keyframes AnimationName {
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 91%}
+        50%{background-position:100% 10%}
+        100%{background-position:0% 91%}
+    }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  
+
+@media only screen and (max-width: 320px) {
+    .Hi {
+        padding:0 1rem;
+        margin-top: 120px;
+        color: #ffffff;
+    }
+    .mainn {
+      padding:0 1rem;
+      position: relative;
+      
+    }
+    .body-main-section {
+      min-height: 300px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width : 1024px) {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 800px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 500px;
+  }
+}
+@media only screen and (max-width: 321px) and (max-width : 767px) {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 600px;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 900px;
+  }
+}
+@media only screen and (max-width: 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 900px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width : 1024px) {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 1000px;
+  }
+}
+@media only screen and (min-width : 1025px)  {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 1000px;
+  }
+}
+@media only screen and (min-width : 1201px)   {
+  .Hi {
+      padding:0 1rem;
+      margin-top: 120px;
+      color: #ffffff;
+  }
+  .mainn {
+    padding:0 1rem;
+    position: relative;
+    
+  }
+  .body-main-section {
+    min-height: 1100px;
+  }
+}
+
+
+footer {
+    font: auto "Work Sans", Helvetica, sans-serif;
+}
+
+
+.animated-gradient-text-head {
+    font-size: auto;
+    background: -webkit-linear-gradient(rgb(133, 180, 189), rgb(24, 175, 185), rgb(6, 135, 221));
+    -webkit-background-clip: text;
+    -webkit-text-size-adjust:  100%;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ------------------------------------ */
+
+  img {max-width:100%}
+
+.center {
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  }
+.center-card-1 {
+  align-items: center;
+  image-resolution: 80%;
+}
+.center-card-1 img {
+    width: auto;
+    height: auto;
+  }
+.center-card-2 {
+    align-items: center;
+    image-resolution: 10%;
+  }
+.center-card-2 img {
+      width: 50%;
+      height: 50%;
+    }
+.center-card-3 {
+    align-items: center;
+    image-resolution: 10%;
+  }
+.center-card-3 img {
+      width: 35%;
+      height: 35%;
+    }
+.center-card-4 {
+    align-items: center;
+    image-resolution: 10%;
+  }
+.center-card-4 img {
+      width: 60%;
+      height: 60%;
+    }
+    
+.row {
+  margin-bottom: 50px;
+}
+
+.fix {
+  margin-right: 12px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+.roww {
+  align-items: center;
+}
+
+.card1 {
+  margin-top: -10px;
+}
+
+.img-spacing {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.block__image {
+  /*width: 100%;*/
+  min-height: auto;
+  width: 100%;
+  height: 0;
+  padding-top: 50%;
+  background: gray;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block__image img {
+  width: 100%;
+}
+.centerr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
